@@ -11,11 +11,11 @@ chrome.runtime.onInstalled.addListener(function() {
         contexts: ["image"]
     });
 
-    chrome.contextMenus.create({
-        id: "show-class",
-        title: "智能分类",
-        contexts: ["image"]
-    });
+    // chrome.contextMenus.create({
+    //     id: "show-class",
+    //     title: "智能分类",
+    //     contexts: ["image"]
+    // });
 });
 
 chrome.contextMenus.onClicked.addListener(function(info, evt){
